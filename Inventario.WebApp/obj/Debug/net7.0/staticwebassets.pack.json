@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\obj\\Debug\\net7.0\\compressed\\m8dhiph79y.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tecnm.Ecommerce.WebApp.styles.css",
+      "PackagePath": "staticwebassets\\Tecnm.Ecommerce.WebApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\gabyg\\Desktop\\Tecnm.Ecommerce\\Tecnm.Ecommerce\\Tecnm.Ecommerce.WebApp\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Tecnm.Ecommerce.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Tecnm.Ecommerce.WebApp.props",
+      "PackagePath": "build\\Tecnm.Ecommerce.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Tecnm.Ecommerce.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Tecnm.Ecommerce.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Tecnm.Ecommerce.WebApp.props",
+      "PackagePath": "buildTransitive\\Tecnm.Ecommerce.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,44 @@
+@page
+@model Inventario.WebSite.Pages.Material.ListMaterial
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" class="form-control" asp-for="SearchString" placeholder="Search by name">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" id="btnSearch" class="btn btn-primary mr-3">Search</button>
+                <a asp-page="/Material/Add" class="btn btn-success" role="button">Add</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-10">
+            <table class="table">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Unidad</th>
+                    <th></th>
+                </tr>
+                @foreach (var material in Model.Materials)
+                {
+                    <tr>
+                        <td>@material.Nombre</td>
+                        <td>@material.Descripcion</td>
+                        <td>@material.Precio</td>
+                        <td>@material.Unidad</td>
+                        <td>
+                            <a asp-page="/Material/Edit" asp-route-id="@material.id" class="btn btn-primary" role="button">Edit</a>
+                            <a asp-page="/Material/Delete" asp-route-id="@material.id" class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

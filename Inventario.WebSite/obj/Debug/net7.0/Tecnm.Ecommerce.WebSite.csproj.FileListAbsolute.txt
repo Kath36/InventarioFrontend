@@ -1,0 +1,112 @@
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\appsettings.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.staticwebassets.runtime.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.exe
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.deps.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.runtimeconfig.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.pdb
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfoInputs.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfo.cs
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.CoreCompileInputs.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cs
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.Tecnm.Ecommerce.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.build.Tecnm.Ecommerce.WebSite.props
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tecnm.Ecommerce.WebSite.props
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tecnm.Ecommerce.WebSite.props
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\bundle\Tecnm.Ecommerce.WebSite.styles.css
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\projectbundle\Tecnm.Ecommerce.WebSite.bundle.scp.css
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\refint\Tecnm.Ecommerce.WebSite.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.pdb
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.genruntimeconfig.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\ref\Tecnm.Ecommerce.WebSite.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.deps.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.runtimeconfig.json
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.exe
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Dapper.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Dapper.Contrib.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.Core.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.dll
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.Core.pdb
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.pdb
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.AssemblyReference.cache
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ec.3D48864D.Up2Date
+C:\Users\gabyg\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\appsettings.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.deps.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.runtimeconfig.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.exe
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.staticwebassets.runtime.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.exe
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.deps.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.runtimeconfig.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.WebSite.pdb
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Dapper.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Dapper.Contrib.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.Core.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce.Core.pdb
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\bin\Debug\net7.0\Tecnm.Ecommerce1.Api.pdb
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.AssemblyReference.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfoInputs.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfo.cs
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.CoreCompileInputs.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cs
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.Tecnm.Ecommerce.WebSite.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.build.Tecnm.Ecommerce.WebSite.props
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Tecnm.Ecommerce.WebSite.props
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Tecnm.Ecommerce.WebSite.props
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\bundle\Tecnm.Ecommerce.WebSite.styles.css
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\scopedcss\projectbundle\Tecnm.Ecommerce.WebSite.bundle.scp.css
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.CopyComplete
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\refint\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.pdb
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.genruntimeconfig.cache
+C:\Users\VAIO\Desktop\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\ref\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.AssemblyReference.cache
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfoInputs.cache
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.AssemblyInfo.cs
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.csproj.CoreCompileInputs.cache
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cache
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.RazorAssemblyInfo.cs
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\refint\Tecnm.Ecommerce.WebSite.dll
+C:\Users\VAIO\Desktop\Proyecto Inventario\Tecnm.Ecommerce\Tecnm.Ecommerce.WebSite\obj\Debug\net7.0\Tecnm.Ecommerce.WebSite.pdb

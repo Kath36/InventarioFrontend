@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Tecnm.Ecommerce.WebSite.props" />
+</Project>

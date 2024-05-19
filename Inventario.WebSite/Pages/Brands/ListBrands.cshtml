@@ -1,0 +1,44 @@
+﻿@page
+@model Inventario.WebSite.Pages.Brands.ListBrands
+
+<div class="container-fluid">
+
+    <form method="get">
+        <div class = "row">
+            <div class = "col-md-8"></div>
+            <div class = "col-md-4">
+                <br/>
+                <button id = "btnSearch" class="btn btn-primary mr-3" >Search</button>
+                <a a-asp-area="" asp-page="/Brands/Add" class="btn btn-success" role="button">Add</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-1"></div>
+        
+        <div class="col-10">
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Descripcion</th>
+                    <th></th>
+                </tr>
+                @foreach (var brand in @Model.brands)
+                {
+                    <tr>
+                        <td>@brand.Name</td>
+                        <td>@brand.Description</td>
+                        <td>
+                            <a a-asp-area="" asp-page="/Brands/Edit" asp-route-id="@brand.id"
+                               class="btn btn-primary" role="button">Edit</a>
+                            <a a-asp-area="" asp-page="/Brands/Delete" asp-route-id="@brand.id"
+                               class="btn btn-danger" role="button">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    
+</div>

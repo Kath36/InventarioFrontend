@@ -1,0 +1,32 @@
+@page
+@model Inventario.WebSite.Pages.Brand.Add
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Agregar</h2>
+            <form method="post">
+                <input type="hidden"/>
+                <div class="form-group">
+                    <label asp-for="BrandDto.Name"></label>
+                    <input asp-for="BrandDto.Name" class="form-control" maxlength="45" />
+                    <span class="text-danger" asp-validation-for="BrandDto.Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BrandDto.Description"></label>
+                    <input asp-for="BrandDto.Description" class="form-control" maxlength="100" />
+                    <span class="text-danger" asp-validation-for="BrandDto.Description"></span>
+                </div>
+              
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Save</button>
+                        <a class="btn btn-secondary" asp-page="/Brands/Index">Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

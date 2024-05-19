@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tecnm.Ecommerce.WebSite
+build_property.RootNamespace = Tecnm.Ecommerce.WebSite
+build_property.ProjectDir = C:\Users\VAIO\Desktop\Proyecto Inventario\ProyectoInventario\Inventario.WebSite\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\VAIO\Desktop\Proyecto Inventario\ProyectoInventario\Inventario.WebSite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/ListBrands.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXExpc3RCcmFuZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Material/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Material/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Material/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Material/ListMaterial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcTGlzdE1hdGVyaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Material/Serch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcU2VyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Serch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XFNlcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iidy4ibrs2

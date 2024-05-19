@@ -1,0 +1,44 @@
+@page
+@model Inventario.WebSite.Pages.Material.Delete
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Delete material</h2>
+            <form method="post">
+                <input type="hidden" asp-for="MaterialDto.id"/>
+                <div class="form-group">
+                    <label asp-for="MaterialDto.Nombre"></label>
+                    <input asp-for="MaterialDto.Nombre" class="form-control" maxlength="45"/>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaterialDto.Descripcion"></label>
+                    <input asp-for="MaterialDto.Descripcion" class="form-control" maxlength="100"/>
+                    <span class="text-danger" asp-validation-for="MaterialDto.Descripcion"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaterialDto.Precio"></label>
+                    <input asp-for="MaterialDto.Precio" class="form-control"/>
+                    <span class="text-danger" asp-validation-for="MaterialDto.Precio"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MaterialDto.Unidad"></label>
+                    <input asp-for="MaterialDto.Unidad" class="form-control" maxlength="20"/>
+                    <span class="text-danger" asp-validation-for="MaterialDto.Unidad"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Delete</button>
+                        <a class="btn btn-secondary" asp-page="/Material/ListMaterial">Cancel</a>
+                    </div>
+                    @if (Model.Errors.Count > 0)
+                    {
+                        <!-- Handle errors here -->
+                    }
+                </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
