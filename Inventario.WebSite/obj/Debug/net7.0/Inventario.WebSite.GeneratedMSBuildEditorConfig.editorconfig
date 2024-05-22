@@ -16,20 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\VAIO\Desktop\Proyecto Inventario\ProyectoInventario\Inventario.WebSite
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXEFkZC5jc2h0bWw=
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/DetallePedido/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZVBlZGlkb1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXERlbGV0ZS5jc2h0bWw=
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/DetallePedido/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZVBlZGlkb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXEVkaXQuY3NodG1s
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/DetallePedido/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZVBlZGlkb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Brands/ListBrands.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnJhbmRzXExpc3RCcmFuZHMuY3NodG1s
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/DetallePedido/LiistDPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWxsZVBlZGlkb1xMaWlzdERQZWRpZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Error.cshtml]
@@ -60,24 +60,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0ZXJpYWxcU2VyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Pedido/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVkaWRvXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Pedido/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVkaWRvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Pedido/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVkaWRvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Pedido/ListPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVkaWRvXExpc3RQZWRpZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XERlbGV0ZS5jc2h0bWw=
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Proveedores/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XEVkaXQuY3NodG1s
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Proveedores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XExpc3QuY3NodG1s
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Proveedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/ProductCategory/Serch.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5XFNlcmNoLmNzaHRtbA==
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Proveedores/ListProveedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcTGlzdFByb3ZlZWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Proveedores/Serch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvdmVlZG9yZXNcU2VyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/RegistroMaterial/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9NYXRlcmlhbFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/RegistroMaterial/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9NYXRlcmlhbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/RegistroMaterial/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9NYXRlcmlhbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/RegistroMaterial/ListRegistroMaterial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9NYXRlcmlhbFxMaXN0UmVnaXN0cm9NYXRlcmlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VAIO/Desktop/Proyecto Inventario/ProyectoInventario/Inventario.WebSite/Pages/Shared/_ValidationScriptsPartial.cshtml]

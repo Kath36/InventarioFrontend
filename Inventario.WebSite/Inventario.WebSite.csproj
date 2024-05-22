@@ -18,6 +18,17 @@
 
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Pages\Practica1\Practica_1.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Inventario\ListRegistroMaterial.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\RegistroMaterial\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\RegistroMaterial\ListRegistroMaterial.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Brands\Add.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Brands\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Brands\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Brands\ListBrands.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\add.css" />
     </ItemGroup>
 
 </Project>

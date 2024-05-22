@@ -5,8 +5,6 @@ using Inventario.Api.Repositories;
 using Inventario.Api.Repositories.Interfaces;
 using Inventario.Api.Repositories.Interfecies;
 using Inventario.Api.Services;
-using Inventario.Api.Services.Interfaces;
-using Inventario.Repositories.Interfecies;
 using Inventario.Services.Interfaces;
 
 
@@ -22,10 +20,7 @@ builder.Services.AddSwaggerGen();
 //builder.Services.AddSingleton<IProductCategoryRepository, InMemoryProductCategoryRepositoty>();
 
 //lanzar la aplicacion con las interfaces , para cuando al momento de lanzarlo, el programa trabaje con ello.
-builder.Services.AddScoped<IProductCategoryRepository, ProductCategoryRepositoty>();
-builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
-builder.Services.AddScoped<IBrandRepository, BrandRepository>();
-builder.Services.AddScoped<IBrandService, BrandService>();
+
 builder.Services.AddScoped<IMaterialRepository, MaterialRepository>();
 builder.Services.AddScoped<IMaterialService, MaterialService>();
 builder.Services.AddScoped<IProveedorRepository, ProveedorRepository>();

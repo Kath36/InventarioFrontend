@@ -1,0 +1,44 @@
+@page
+@model Inventario.WebSite.Pages.RegistroMaterial.ListModel
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row">
+            <div class="col-md-8"></div>
+            <div class="col-md-4">
+                <br/>
+                <button id="btnSearch" class="btn btn-primary mr-3">Buscar</button>
+                <a asp-page="/RegistroMaterial/Add" class="btn btn-danger" role="button">Agregar</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-10">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Material ID</th>
+                        <th>Cantidad</th>
+                        <th>Fecha Registro</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var registro in @Model.RegistrosMaterial)
+                    {
+                        <tr>
+                            <td>@registro.MaterialId</td>
+                            <td>@registro.Cantidad</td>
+                            <td>
+                                <a asp-page="/RegistroMaterial/Edit" asp-route-id="@registro.id" class="btn btn-primary" role="button">Editar</a>
+                                <a asp-page="/RegistroMaterial/Delete" asp-route-id="@registro.id" class="btn btn-danger" role="button">Eliminar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

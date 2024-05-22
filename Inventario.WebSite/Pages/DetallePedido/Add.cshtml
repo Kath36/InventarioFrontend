@@ -1,0 +1,31 @@
+@page
+@model Inventario.WebSite.Pages.DetallePedido.Add
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2>Agregar nuevo material</h2>
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="DetallePedidoDto.Pedido_ID"></label>
+                    <input asp-for="DetallePedidoDto.Pedido_ID" class="form-control" maxlength="45" />
+                    <span class="text-danger" asp-validation-for="DetallePedidoDto.Pedido_ID"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DetallePedidoDto.Material_ID"></label>
+                    <input asp-for="DetallePedidoDto.Material_ID" class="form-control" maxlength="100" />
+                    <span class="text-danger" asp-validation-for="DetallePedidoDto.Material_ID"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DetallePedidoDto.Cantidad"></label>
+                    <input asp-for="DetallePedidoDto.Cantidad" class="form-control" />
+                    <span class="text-danger" asp-validation-for="DetallePedidoDto.Cantidad"></span>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary mr-3">Add</button>
+                    <a class="btn btn-secondary" asp-page="/DetallePedido/ListDPedido">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

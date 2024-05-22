@@ -1,0 +1,46 @@
+@page
+@model Inventario.WebSite.Pages.Proveedor.Edit
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Editar Proveedor</h2>
+            <form method="post">
+                <input type="hidden" asp-for="ProveedorDto.id" />
+                <div class="form-group">
+                    <label asp-for="ProveedorDto.Nombre"></label>
+                    <input asp-for="ProveedorDto.Nombre" class="form-control" maxlength="45" />
+                    <span class="text-danger" asp-validation-for="ProveedorDto.Nombre"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProveedorDto.Direccion"></label>
+                    <input asp-for="ProveedorDto.Direccion" class="form-control" maxlength="100" />
+                    <span class="text-danger" asp-validation-for="ProveedorDto.Direccion"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ProveedorDto.Telefono"></label>
+                    <input asp-for="ProveedorDto.Telefono" class="form-control" />
+                    <span class="text-danger" asp-validation-for="ProveedorDto.Telefono"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Guardar</button>
+                        <a class="btn btn-secondary" asp-page="/Proveedores/ListProveedor">Cancelar</a>
+                    </div>
+                    
+                </div>
+            </form>
+            @if (Model.Errors.Count > 0)
+            {
+                <div class="text-danger">
+                    @foreach (var error in Model.Errors)
+                    {
+                        <p>@error</p>
+                    }
+                </div>
+            }
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

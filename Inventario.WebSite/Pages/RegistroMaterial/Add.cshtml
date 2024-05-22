@@ -1,0 +1,31 @@
+@page
+@model Inventario.WebSite.Pages.RegistroMaterial.Add
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Agregar Registro de Material</h2>
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="RegistroMaterialDto.MaterialId">ID del Material</label>
+                    <input asp-for="RegistroMaterialDto.MaterialId" class="form-control" />
+                    <span class="text-danger" asp-validation-for="RegistroMaterialDto.MaterialId"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RegistroMaterialDto.Cantidad">Cantidad</label>
+                    <input asp-for="RegistroMaterialDto.Cantidad" class="form-control" />
+                    <span class="text-danger" asp-validation-for="RegistroMaterialDto.Cantidad"></span>
+                </div>
+              
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Guardar</button>
+                        <a class="btn btn-secondary" asp-page="RegistroMaterial/ListRegistroMaterial">Cancelar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Inventario.WebSite.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\add.css",
+      "PackagePath": "staticwebassets\\css\\add.css"
+    },
+    {
       "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

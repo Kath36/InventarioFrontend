@@ -1,0 +1,36 @@
+@page
+@model Inventario.WebSite.Pages.RegistroMaterial.Delete
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Eliminar registro de material</h2>
+            <form method="post">
+                <input type="hidden" asp-for="RegistroMaterialDto.id" />
+                <div class="form-group">
+                    <label asp-for="RegistroMaterialDto.MaterialId"></label>
+                    <input asp-for="RegistroMaterialDto.MaterialId" class="form-control" disabled />
+                    <span class="text-danger" asp-validation-for="RegistroMaterialDto.MaterialId"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RegistroMaterialDto.Cantidad"></label>
+                    <input asp-for="RegistroMaterialDto.Cantidad" class="form-control" disabled />
+                    <span class="text-danger" asp-validation-for="RegistroMaterialDto.Cantidad"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RegistroMaterialDto.Fecha_Registro"></label>
+                    <input asp-for="RegistroMaterialDto.Fecha_Registro" class="form-control" disabled />
+                    <span class="text-danger" asp-validation-for="RegistroMaterialDto.Fecha_Registro"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-danger mr-3">Eliminar</button>
+                        <a class="btn btn-secondary" asp-page="RegistroMaterial/ListRegistroMaterial">Cancelar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

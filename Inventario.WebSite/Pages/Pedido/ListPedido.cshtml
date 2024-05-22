@@ -1,0 +1,42 @@
+@page
+@model Inventario.WebSite.Pages.Pedido.ListPedido
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" class="form-control" asp-for="SearchString" placeholder="Buscar por nombre">
+            </div>
+            <div class="col-md-4">
+                <a asp-page="/DetallePedido/LiistDPedido" class="btn btn-success" role="button">Detalle de los pedidos</a>
+                <a asp-page="/Pedido/Add" class="btn btn-success" role="button">Agregar</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-10">
+            <table class="table">
+                <tr>
+                    <th>Cliente</th>
+                    <th>Fecha de Pedido</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+                @foreach (var pedido in Model.Pedidos)
+                {
+                    <tr>
+                        <td>@pedido.Cliente</td>
+                        <td>@pedido.Fecha_Pedido</td>
+                        <td>@pedido.Estado</td>
+                        <td>
+                            <a asp-page="/Pedido/Edit" asp-route-id="@pedido.id" class="btn btn-primary" role="button">Editar</a>
+                            <a asp-page="/Pedido/Delete" asp-route-id="@pedido.id" class="btn btn-danger" role="button">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

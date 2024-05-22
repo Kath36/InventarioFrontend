@@ -1,0 +1,42 @@
+@page
+@model Inventario.WebSite.Pages.Pedido.Edit
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Editing Material</h2>
+            <form method="post">
+                <input type="hidden" asp-for="PedidoDto.id" />
+                <div class="form-group">
+                    <label asp-for="PedidoDto.Cliente"></label>
+                    <input asp-for="PedidoDto.Cliente" class="form-control" maxlength="45" />
+                    <span class="text-danger" asp-validation-for="PedidoDto.Cliente"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PedidoDto.Estado"></label>
+                    <input asp-for="PedidoDto.Estado" class="form-control" maxlength="100" />
+                    <span class="text-danger" asp-validation-for="PedidoDto.Estado"></span>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Save</button>
+                        <a class="btn btn-secondary" asp-page="/Pedido/ListPedido">Cancel</a>
+                    </div>
+                </div>
+            </form>
+            @if (Model.Errors.Count > 0)
+            {
+                <div class="text-danger">
+                    @foreach (var error in Model.Errors)
+                    {
+                        <p>@error</p>
+                    }
+                </div>
+            }
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

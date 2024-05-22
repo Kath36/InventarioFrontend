@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Db7VYv9shPAyz7ZxCX07qbiXyIQIN4q9NmqEYRZTBPw=",
+  "Hash": "V9dkeyuEu8v7n+1IlgLGsnOBZ4AWy4Kui3QkRUR7ph0=",
   "Source": "Inventario.WebSite",
   "BasePath": "_content/Inventario.WebSite",
   "Mode": "Default",
@@ -61,6 +61,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Inventario.WebSite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\add.css",
+      "SourceId": "Inventario.WebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\",
+      "BasePath": "_content/Inventario.WebSite",
+      "RelativePath": "css/add.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\add.css"
     },
     {
       "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\site.css",
