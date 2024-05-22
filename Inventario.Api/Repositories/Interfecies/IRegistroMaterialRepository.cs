@@ -15,5 +15,6 @@ namespace Inventario.Api.Repositories.Interfecies
         Task<bool> DeleteAsync(int id);
         
         Task<RegistroMaterial> GetById(int id);
+
     }
 }

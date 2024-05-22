@@ -9,7 +9,7 @@ builder.Services.AddScoped<IProveedorService, ProveedorService>();
 builder.Services.AddScoped<IRegistroMaterialService, RegistroMaterialService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
 builder.Services.AddScoped<IDetallePedidoService, DetallePedidoService>();
-
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 var app = builder.Build();
 

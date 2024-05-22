@@ -17,7 +17,6 @@ namespace Inventario.Api.Dto
             id = usuario.id;
             Email = usuario.Email;
             Contraseña = usuario.Contraseña;
-            // Puedes agregar más propiedades si es necesario, como nombre, apellido, etc.
         }
     }
 }

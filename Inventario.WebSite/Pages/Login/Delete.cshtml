@@ -1,0 +1,33 @@
+@page
+@model Inventario.WebSite.Pages.Usuario.Delete
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h2>Delete user</h2>
+            <form method="post">
+                <input type="hidden" asp-for="UsuarioDto.id"/>
+                <div class="form-group">
+                    <label asp-for="UsuarioDto.Email"></label>
+                    <input asp-for="UsuarioDto.Email" class="form-control" maxlength="45"/>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UsuarioDto.Contraseña"></label>
+                    <input asp-for="UsuarioDto.Contraseña" class="form-control" maxlength="100"/>
+                    <span class="text-danger" asp-validation-for="UsuarioDto.Contraseña"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <button type="submit" class="btn btn-primary mr-3">Delete</button>
+                        <a class="btn btn-secondary" asp-page="/Usuario/ListUsuario">Cancel</a>
+                    </div>
+                    @if (Model.Errors.Count > 0)
+                    {
+                    }
+                </div>
+            </form>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>

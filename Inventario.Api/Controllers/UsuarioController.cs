@@ -6,6 +6,7 @@ using Inventario.Core.Http;
 
 namespace Inventario.Api.Controllers
 {
+    
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
@@ -19,28 +20,50 @@ namespace Inventario.Api.Controllers
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         [HttpPost("authenticate")]
-        public async Task<ActionResult<UsuarioDto>> Authenticate([FromBody] LoginRequestDto loginRequest)
+        public async Task<ActionResult<Response<UsuarioDto>>> Authenticate([FromBody] LoginRequestDto loginRequest)
         {
             try
             {
                 if (loginRequest == null || string.IsNullOrEmpty(loginRequest.Email) ||
                     string.IsNullOrEmpty(loginRequest.Contraseña))
                 {
-                    return BadRequest(
-                        new { message = "Los campos de correo electrónico y contraseña son obligatorios" });
+                    return BadRequest(new Response<UsuarioDto>
+                    {
+                        Success = false,
+                        Message = "Los campos de correo electrónico y contraseña son obligatorios."
+                    });
                 }
-                var usuario = await _usuarioService.AuthenticateAsync(loginRequest.Email, loginRequest.Contraseña);
-                if (usuario == null)
-                    return BadRequest(new { message = "Correo electrónico o contraseña incorrectos" });
 
-                return Ok(usuario);
+                var usuario = await _usuarioService.AuthenticateAsync(loginRequest.Email, loginRequest.Contraseña);
+
+                if (usuario == null)
+                {
+                    return BadRequest(new Response<UsuarioDto>
+                    {
+                        Success = false,
+                        Message = "Correo electrónico o contraseña incorrectos."
+                    });
+                }
+
+                return Ok(new Response<UsuarioDto>
+                {
+                    Success = true,
+                    Data = usuario,
+                    Message = "Autenticación exitosa."
+                });
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error en el método Authenticate: {ex}");
-                return StatusCode(500, new { message = "Ocurrió un error al procesar la solicitud." });
+                return StatusCode(500, new Response<UsuarioDto>
+                {
+                    Success = false,
+                    Message = "Ocurrió un error al procesar la solicitud."
+                });
             }
         }
+
+    
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         [HttpGet]
         public async Task<ActionResult<Response<List<UsuarioDto>>>> GetAll()

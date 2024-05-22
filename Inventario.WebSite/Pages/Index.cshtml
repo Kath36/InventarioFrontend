@@ -1,10 +1,37 @@
 ﻿@page
-@model Inventario.WebSite.Pages.IndexModel
+@model Inventario.WebSite.Pages.Home.List
 @{
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">INVENTARIO</h1>
 </div>
+  <div class="row">
+        <div class="col-md-1"></div>
+  <div class="col-10">
+      <table class="table">
+          <thead>
+          <tr>
+              <th>Material ID</th>
+              <th>Cantidad</th>
+              <th>Fecha Registro</th>
+              <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          @foreach (var registro in @Model.RegistrosMaterial)
+          {
+              <tr>
+                  <td>@registro.MaterialId</td>
+                  <td>@registro.Cantidad</td>
+                  <td>@registro.Fecha_Registro</td>
+                  <td>
+                  </td>
+              </tr>
+          }
+          </tbody>
+      </table>
+  </div>
+  <div class="col-md-1"></div>
+  </div>

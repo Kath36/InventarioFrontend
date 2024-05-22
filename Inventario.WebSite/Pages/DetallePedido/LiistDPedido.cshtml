@@ -8,7 +8,7 @@
                 <input type="text" class="form-control" asp-for="SearchString" placeholder="Search by Material ID">
             </div>
             <div class="col-md-4">
-                <button type="submit" id="btnSearch" class="btn btn-primary mr-3">Search</button>
+                <a asp-page="/DetallePedido/search" class="btn btn-success" role="button"></a>
                 <a asp-page="/DetallePedido/Add" class="btn btn-success" role="button">Add</a>
             </div>
         </div>
@@ -30,8 +30,6 @@
                         <td>@detallePedido.Material_ID</td>
                         <td>@detallePedido.Cantidad</td>
                         <td>
-                            <a asp-page="/DetallePedido/Edit" asp-route-id="@detallePedido.id" class="btn btn-primary" role="button">Edit</a>
-                            <a asp-page="/DetallePedido/Delete" asp-route-id="@detallePedido.id" class="btn btn-danger" role="button">Delete</a>
                         </td>
                     </tr>
                 }
