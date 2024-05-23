@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V9dkeyuEu8v7n+1IlgLGsnOBZ4AWy4Kui3QkRUR7ph0=",
+  "Hash": "NU5jzL0+goI28+QIBefQAT7umOqZ7vRVE2V1eHU+pyQ=",
   "Source": "Inventario.WebSite",
   "BasePath": "_content/Inventario.WebSite",
   "Mode": "Default",
@@ -78,6 +78,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\add.css"
+    },
+    {
+      "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\Index.css",
+      "SourceId": "Inventario.WebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\",
+      "BasePath": "_content/Inventario.WebSite",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
+    },
+    {
+      "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\login.css",
+      "SourceId": "Inventario.WebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\",
+      "BasePath": "_content/Inventario.WebSite",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\site.css",

@@ -1,0 +1,93 @@
+body {
+    background-color: deepskyblue;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background-color: deepskyblue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Contenedor grande de login*/
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra más suave */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 10px; /* Borde redondeado */
+
+
+}
+/*Letras de login*/
+.login-form h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+
+/*Lineas de texto*/
+.login-form .form-control {
+    height: calc(1.5em + 1rem + 2px);
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.login-form .btn-primary {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form .btn-primary:hover {
+    background-color: #007bff;
+}
+
+.login-form .btn-secondary {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form .btn-secondary:hover {
+    background-color: #6c757d;
+}
+
+.login-form .alert {
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales para enlaces dentro del formulario */
+.login-form a {
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}

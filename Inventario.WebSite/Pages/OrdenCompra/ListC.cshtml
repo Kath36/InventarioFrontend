@@ -1,0 +1,42 @@
+@page
+@model Inventario.WebSite.Pages.OrdenCompra.List
+
+<div class="container-fluid">
+    <form method="get">
+        <div class="row">
+            <div class="col-md-8">
+                <input type="text" class="form-control" asp-for="SearchString" placeholder="Search by name">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" id="btnSearch" class="btn btn-primary mr-3">Search</button>
+                <a asp-page="/OrdenCompra/Add" class="btn btn-success" role="button">Add</a>
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-10">
+            <table class="table">
+                <tr>
+                    <th>Material ID</th>
+                    <th>Cantidad</th>
+                    <th>Proveedor ID</th>
+                    <th>Fecha Orden</th>
+                    <th></th>
+                </tr>
+                @foreach (var ordenCompra in Model.OrdenesCompra)
+                {
+                    <tr>
+                        <td>@ordenCompra.MaterialId</td>
+                        <td>@ordenCompra.Cantidad</td>
+                        <td>@ordenCompra.ProveedorId</td>
+                        <td>@ordenCompra.FechaOrden</td>
+                        <td>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
