@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\add.css"
     },
     {
+      "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\list-detalle-pedido.css",
+      "PackagePath": "staticwebassets\\css\\list-detalle-pedido.css"
+    },
+    {
       "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },

@@ -6,7 +6,6 @@ namespace Inventario.Api.Dto
     public class PedidoDto : DtoBase
     {
         public string Cliente { get; set; }
-        [JsonIgnore]
         public DateTime Fecha_Pedido { get; set; }
         public string Estado { get; set; }
 

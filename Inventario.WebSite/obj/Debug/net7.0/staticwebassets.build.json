@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NU5jzL0+goI28+QIBefQAT7umOqZ7vRVE2V1eHU+pyQ=",
+  "Hash": "v5b+Lk9qTdvp/CAxTdO7qCTy2iCDgcv2XMevxYGb1EE=",
   "Source": "Inventario.WebSite",
   "BasePath": "_content/Inventario.WebSite",
   "Mode": "Default",
@@ -95,6 +95,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
+    },
+    {
+      "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\list-detalle-pedido.css",
+      "SourceId": "Inventario.WebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\",
+      "BasePath": "_content/Inventario.WebSite",
+      "RelativePath": "css/list-detalle-pedido.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\list-detalle-pedido.css"
     },
     {
       "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\login.css",

@@ -1,5 +1,4 @@
-﻿using System.Text.Json.Serialization;
-using Inventario.Core.Entities;
+﻿using Inventario.Core.Entities;
 
 namespace Inventario.Api.Dto
 {
@@ -8,7 +7,6 @@ namespace Inventario.Api.Dto
         public int MaterialId { get; set; }
         public int Cantidad { get; set; }
         public int ProveedorId { get; set; }
-        [JsonIgnore]
 
         public DateTime FechaOrden { get; set; }
 

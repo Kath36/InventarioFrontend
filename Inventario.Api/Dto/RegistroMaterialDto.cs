@@ -8,7 +8,6 @@ namespace Inventario.Api.Dto
         public int MaterialId { get; set; }
         public int Cantidad { get; set; }
 
-        [JsonIgnore]
         public DateTime Fecha_Registro { get; set; }
 
         public RegistroMaterialDto()

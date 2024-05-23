@@ -30,6 +30,7 @@
                         <tr>
                             <td>@registro.MaterialId</td>
                             <td>@registro.Cantidad</td>
+                            <td>@registro.Fecha_Registro</td>
                             <td>
                                 <a asp-page="/RegistroMaterial/Edit" asp-route-id="@registro.id" class="btn btn-primary" role="button">Editar</a>
                                 <a asp-page="/RegistroMaterial/Delete" asp-route-id="@registro.id" class="btn btn-danger" role="button">Eliminar</a>

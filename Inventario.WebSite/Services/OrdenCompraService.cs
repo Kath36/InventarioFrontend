@@ -11,7 +11,7 @@ namespace Inventario.WebSite.Services
     public class OrdenCompraService : IOrdenCompraService
     {
         private readonly string _baseURL = "http://localhost:5209/";
-        private readonly string _endpoint = "api/OrdenesCompra";
+        private readonly string _endpoint = "api/OrdenCompra";
 
         public OrdenCompraService()
         {

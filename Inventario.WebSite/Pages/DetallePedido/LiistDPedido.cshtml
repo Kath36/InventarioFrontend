@@ -2,17 +2,14 @@
 @model Inventario.WebSite.Pages.DetallePedido.ListDetallePedido
 
 <div class="container-fluid">
-    <form method="get">
         <div class="row">
-            <div class="col-md-8">
-                <input type="text" class="form-control" asp-for="SearchString" placeholder="Search by Material ID">
+            <div>
+            <h1 class="display-4">Detalle Pedido</h1>
             </div>
-            <div class="col-md-4">
-                <a asp-page="/DetallePedido/search" class="btn btn-success" role="button"></a>
-                <a asp-page="/DetallePedido/Add" class="btn btn-success" role="button">Add</a>
-            </div>
+            <div class="col-md-4 d-flex justify-content-end">
+                   <a asp-page="/DetallePedido/Add" class="btn btn-success btn-custom" role="button">Add</a>
+               </div>
         </div>
-    </form>
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-10">
@@ -35,6 +32,5 @@
                 }
             </table>
         </div>
-        <div class="col-md-1"></div>
     </div>
 </div>
