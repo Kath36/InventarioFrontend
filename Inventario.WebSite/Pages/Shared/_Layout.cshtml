@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/Index.css" /> 
     <link rel="stylesheet" href="~/css/list-detalle-pedido.css" />
+    <link rel="stylesheet" href="~/css/Material.css" />
 
 
     <style>
@@ -96,12 +97,19 @@
         @RenderBody()
     </main>
 </div>
-
 <footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2024 - Inventario DKDA - <a asp-area="" ></a>
+    <div class="footer-content">
+        &copy; 2024 - Inventario DKDA -
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
 </footer>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+}
+
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Estilo para el título */
+h1 {
+    margin: 0;
+    
+}
+
+/* Estilo para el botón Agregar */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.icon-button {
+    margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .row.align-items-center {
+        text-align: center;
+    }
+
+    .col-md-8,
+    .col-md-4 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

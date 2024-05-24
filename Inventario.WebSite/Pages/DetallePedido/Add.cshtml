@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h2>Agregar nuevo material</h2>
+            <h2>Agregar</h2>
             <form method="post">
                 <div class="form-group">
                     <label asp-for="DetallePedidoDto.Pedido_ID"></label>
@@ -21,11 +21,26 @@
                     <input asp-for="DetallePedidoDto.Cantidad" class="form-control" />
                     <span class="text-danger" asp-validation-for="DetallePedidoDto.Cantidad"></span>
                 </div>
+                @if (Model.Errors.Count > 0)
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            @foreach (var error in Model.Errors)
+                            {
+                                <li>@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
                 <div class="text-right">
-                    <button type="submit" class="btn btn-primary mr-3">Add</button>
-                    <a class="btn btn-secondary" asp-page="/DetallePedido/ListDPedido">Cancel</a>
+                    <button type="submit" class="btn btn-primary mr-3">Guardar</button>
+                    <a class="btn btn-secondary" asp-page="/DetallePedido/LiistDPedido">Cancelar</a>
                 </div>
             </form>
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

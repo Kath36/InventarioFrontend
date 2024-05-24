@@ -1,44 +1,90 @@
 @page
 @model Inventario.WebSite.Pages.Material.ListMaterial
 
+<head>
+    <title>Materiales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            text-align: center;
+            margin-top: 20px;
+            color: #343a40;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .action-buttons {
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
 <div class="container-fluid">
-    <form method="get">
-        <div class="row">
-            <div class="col-md-8">
-                <input type="text" class="form-control" asp-for="SearchString" placeholder="Search by name">
-            </div>
-            <div class="col-md-4">
-                <button type="submit" id="btnSearch" class="btn btn-primary mr-3">Search</button>
-                <a asp-page="/Material/Add" class="btn btn-success" role="button">Add</a>
-            </div>
-        </div>
-    </form>
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-10">
-            <table class="table">
-                <tr>
-                    <th>Nombre</th>
-                    <th>Descripción</th>
-                    <th>Precio</th>
-                    <th>Unidad</th>
-                    <th></th>
-                </tr>
+    <h1 class="title">Materiales</h1>
+   
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <table class="table table-hover" id="materialesTable">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Unidad</th>
+                    </tr>
+                </thead>
+                <tbody>
                 @foreach (var material in Model.Materials)
                 {
-                    <tr>
+                    <tr data-id="@material.id">
                         <td>@material.Nombre</td>
                         <td>@material.Descripcion</td>
                         <td>@material.Precio</td>
                         <td>@material.Unidad</td>
-                        <td>
-                            <a asp-page="/Material/Edit" asp-route-id="@material.id" class="btn btn-primary" role="button">Edit</a>
-                            <a asp-page="/Material/Delete" asp-route-id="@material.id" class="btn btn-danger" role="button">Delete</a>
-                        </td>
                     </tr>
                 }
+                </tbody>
             </table>
         </div>
-        <div class="col-md-1"></div>
+    </div>
+    <div class="row action-buttons">
+        <div class="col-md-12">
+            <a asp-page="/Index" class="btn btn-dark" role="button">Regresar</a>
+            <a asp-page="/Material/Add" class="btn btn-dark" role="button">Agregar</a>
+            <a id="editButton" href="#" class="btn btn-dark" role="button" disabled>Editar</a>
+            <a id="deleteButton" href="#" class="btn btn-dark" role="button" disabled>Eliminar</a>
+        </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const table = document.getElementById('materialesTable');
+            const editButton = document.getElementById('editButton');
+            const deleteButton = document.getElementById('deleteButton');
+
+            table.addEventListener('click', function (event) {
+                let target = event.target;
+                while (target && target.nodeName !== 'TR') {
+                    target = target.parentElement;
+                }
+                if (target) {
+                    const id = target.getAttribute('data-id');
+                    if (id) {
+                        editButton.href = `/Material/Edit?id=${id}`;
+                        deleteButton.href = `/Material/Delete?id=${id}`;
+                        editButton.removeAttribute('disabled');
+                        deleteButton.removeAttribute('disabled');
+                    }
+                }
+            });
+        });
+    </script>
+}

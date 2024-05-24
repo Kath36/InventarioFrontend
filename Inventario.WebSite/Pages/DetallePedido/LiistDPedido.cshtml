@@ -2,14 +2,20 @@
 @model Inventario.WebSite.Pages.DetallePedido.ListDetallePedido
 
 <div class="container-fluid">
-        <div class="row">
-            <div>
-            <h1 class="display-4">Detalle Pedido</h1>
-            </div>
-            <div class="col-md-4 d-flex justify-content-end">
-                   <a asp-page="/DetallePedido/Add" class="btn btn-success btn-custom" role="button">Add</a>
-               </div>
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1>Detalle Pedido</h1>
         </div>
+        <div class="col-md-4 text-right">
+            <a asp-page="/DetallePedido/Add" class="btn btn-dark" role="button">
+                <i class="fas fa-shopping-bag icon-button"></i> Agregar
+            </a>
+            
+            <a asp-page="/Pedido/ListPedido" class="btn btn-dark" role="button">
+                <i class="fas fa-shopping-bag icon-button"></i> Regresar
+            </a>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-10">

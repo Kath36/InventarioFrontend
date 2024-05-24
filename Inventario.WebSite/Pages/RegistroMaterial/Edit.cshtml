@@ -1,5 +1,5 @@
 @page
-@model Inventario.WebSite.Pages.RegistroMaterial.Edit
+@model Inventario.WebSite.Pages.RegistroMaterial.EditModel
 
 <div class="container-fluid">
     <div class="row">
@@ -18,10 +18,21 @@
                     <input asp-for="RegistroMaterialDto.Cantidad" class="form-control" />
                     <span class="text-danger" asp-validation-for="RegistroMaterialDto.Cantidad"></span>
                 </div>
+                @if (Model.Errors.Any())
+                {
+                    <div class="alert alert-danger" role="alert">
+                        <ul>
+                            @foreach (var error in Model.Errors)
+                            {
+                                <li>@error</li>
+                            }
+                        </ul>
+                    </div>
+                }
                 <div class="row">
                     <div class="col-md-12 text-right">
                         <button type="submit" class="btn btn-primary mr-3">Guardar</button>
-                        <a asp-page="RegistroMaterial/ListRegistroMaterial" class="btn btn-secondary">Cancelar</a>
+                        <a asp-page="./ListRegistroMaterial" class="btn btn-secondary">Cancelar</a>
                     </div>
                 </div>
             </form>

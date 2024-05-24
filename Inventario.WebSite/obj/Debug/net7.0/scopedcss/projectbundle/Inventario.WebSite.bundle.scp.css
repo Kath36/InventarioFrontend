@@ -6,11 +6,9 @@ a.navbar-brand[b-iidy4ibrs2] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
-  
 }
 
 a[b-iidy4ibrs2] {
-  color: #0077cc;
 }
 
 .btn-primary[b-iidy4ibrs2] {
@@ -28,6 +26,7 @@ a[b-iidy4ibrs2] {
 .border-top[b-iidy4ibrs2] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-iidy4ibrs2] {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -42,10 +41,12 @@ button.accept-policy[b-iidy4ibrs2] {
 }
 
 .footer[b-iidy4ibrs2] {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
   position: absolute;
   bottom: 0;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
-  background-color: black;
 }
+

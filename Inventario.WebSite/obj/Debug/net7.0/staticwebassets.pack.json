@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
     {
+      "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\Material.css",
+      "PackagePath": "staticwebassets\\css\\Material.css"
+    },
+    {
       "Id": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\add.css",
       "PackagePath": "staticwebassets\\css\\add.css"
     },

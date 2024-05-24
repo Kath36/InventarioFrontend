@@ -13,11 +13,16 @@ namespace Inventario.Api.Controllers
     public class OrdenCompraController : ControllerBase
     {
         private readonly IOrdenCompraService _ordenCompraService;
+        private readonly IMaterialService _materialService;
+        private readonly IProveedorService _proveedorService;
 
-        public OrdenCompraController(IOrdenCompraService ordenCompraService)
+        public OrdenCompraController(IOrdenCompraService ordenCompraService, IMaterialService materialService, IProveedorService proveedorService)
         {
             _ordenCompraService = ordenCompraService;
+            _materialService = materialService;
+            _proveedorService = proveedorService;
         }
+
 
 //e////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         [HttpGet]
@@ -39,46 +44,55 @@ namespace Inventario.Api.Controllers
 
 //e///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
         [HttpPost]
-        public async Task<ActionResult<Response<OrdenCompraDtoSinId>>> Post(
-            [FromBody] OrdenCompraDtoSinId ordenCompraDto)
+        public async Task<ActionResult<Response<OrdenCompraDto>>> Post([FromBody] OrdenCompraDto ordenCompraDto)
         {
-            try
-            { 
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
-                if (ordenCompraDto.MaterialId <= 0)
-                {
-                    ModelState.AddModelError(nameof(ordenCompraDto.MaterialId), "El MaterialId es obligatorio.");
-                    return BadRequest(ModelState);
-                }
-                if (ordenCompraDto.Cantidad <= 0)
-                {
-                    ModelState.AddModelError(nameof(ordenCompraDto.Cantidad), "La Cantidad debe ser mayor que cero.");
-                    return BadRequest(ModelState);
-                }
-                if (ordenCompraDto.ProveedorId <= 0)
-                {
-                    ModelState.AddModelError(nameof(ordenCompraDto.ProveedorId), "El ProveedorId es obligatorio.");
-                    return BadRequest(ModelState);
-                }
-                var ordenCompraDtoWithId = new OrdenCompraDto
-                {
-                    MaterialId = ordenCompraDto.MaterialId,
-                    Cantidad = ordenCompraDto.Cantidad,
-                    ProveedorId = ordenCompraDto.ProveedorId,
-                    FechaOrden =
-                        DateTime.Now };
-                await _ordenCompraService.SaveAsync(ordenCompraDtoWithId);
-                return Ok(new { message = "La orden de compra se agregó correctamente." });
-            }
-            catch (Exception ex)
+            var response = new Response<OrdenCompraDto>();
+
+            var validationErrors = new List<string>();
+
+            if (ordenCompraDto.MaterialId <= 0)
             {
-                Console.WriteLine($"Error en el método Post: {ex}");
-                return StatusCode(500, new { message = "Verifica que el ID material y/o ID proveedor existan." });
+                validationErrors.Add("El campo MaterialId es obligatorio.");
             }
+
+            if (ordenCompraDto.ProveedorId <= 0)
+            {
+                validationErrors.Add("El campo ProveedorId es obligatorio.");
+            }
+
+            if (ordenCompraDto.Cantidad <= 0)
+            {
+                validationErrors.Add("El campo Cantidad debe ser mayor que cero.");
+            }
+
+            if (!await _materialService.MaterialExists(ordenCompraDto.MaterialId))
+            {
+                validationErrors.Add("El MaterialId no existe.");
+            }
+
+            if (!await _proveedorService.ProveedorExists(ordenCompraDto.ProveedorId))
+            {
+                validationErrors.Add("El ProveedorId no existe.");
+            }
+
+            if (validationErrors.Any())
+            {
+                response.Errors.AddRange(validationErrors);
+                return BadRequest(response);
+            }
+
+            OrdenCompraDto ordenCompraDtoWithId = new OrdenCompraDto
+            {
+                MaterialId = ordenCompraDto.MaterialId,
+                ProveedorId = ordenCompraDto.ProveedorId,
+                Cantidad = ordenCompraDto.Cantidad,
+                FechaOrden = DateTime.Now
+            };
+
+            response.Data = await _ordenCompraService.SaveAsync(ordenCompraDtoWithId);
+            return Created($"/api/[controller]/{response.Data.id}", response);
         }
+
 //e/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         [HttpGet]

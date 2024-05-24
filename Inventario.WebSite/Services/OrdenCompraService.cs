@@ -22,7 +22,6 @@ namespace Inventario.WebSite.Services
             var url = $"{_baseURL}{_endpoint}";
             using var client = new HttpClient();
             var response = await client.GetAsync(url);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<List<OrdenCompraDto>>>(jsonResponse);
         }
@@ -32,11 +31,9 @@ namespace Inventario.WebSite.Services
             var url = $"{_baseURL}{_endpoint}/{id}";
             using var client = new HttpClient();
             var response = await client.GetAsync(url);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<OrdenCompraDto>>(jsonResponse);
         }
-
         public async Task<Response<OrdenCompraDto>> SaveAsync(OrdenCompraDto ordenCompraDto)
         {
             var url = $"{_baseURL}{_endpoint}";
@@ -44,10 +41,19 @@ namespace Inventario.WebSite.Services
             using var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
             using var client = new HttpClient();
             var response = await client.PostAsync(url, content);
-            response.EnsureSuccessStatusCode();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorResponse = await response.Content.ReadAsStringAsync();
+                var errorObj = JsonConvert.DeserializeObject<Response<OrdenCompraDto>>(errorResponse);
+                return errorObj;
+            }
+
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<OrdenCompraDto>>(jsonResponse);
         }
+
+
 
         public async Task<Response<OrdenCompraDto>> UpdateAsync(OrdenCompraDto ordenCompraDto)
         {
@@ -56,7 +62,6 @@ namespace Inventario.WebSite.Services
             using var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
             using var client = new HttpClient();
             var response = await client.PutAsync(url, content);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<OrdenCompraDto>>(jsonResponse);
         }
@@ -66,7 +71,6 @@ namespace Inventario.WebSite.Services
             var url = $"{_baseURL}{_endpoint}/{id}";
             using var client = new HttpClient();
             var response = await client.DeleteAsync(url);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<bool>>(jsonResponse);
         }
@@ -76,7 +80,6 @@ namespace Inventario.WebSite.Services
             var url = $"{_baseURL}{_endpoint}/nombre/{nombre}";
             using var client = new HttpClient();
             var response = await client.GetAsync(url);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<OrdenCompraDto>>(jsonResponse);
         }

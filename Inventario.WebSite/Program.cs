@@ -2,6 +2,14 @@ using Inventario.WebSite.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5094);
+    options.ListenAnyIP(7031, listenOptions =>
+    {
+        listenOptions.UseHttps();
+    });
+});
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddScoped<IMaterialService, MaterialService>();

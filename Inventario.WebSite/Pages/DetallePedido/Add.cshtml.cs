@@ -48,7 +48,7 @@ namespace Inventario.WebSite.Pages.DetallePedido
             Response<DetallePedidoDto> response;
             if (DetallePedidoDto.id > 0)
             {
-                response = await _service.SaveAsync(DetallePedidoDto);
+                response = await _service.UpdateAsync(DetallePedidoDto);
             }
             else
             {
@@ -62,7 +62,7 @@ namespace Inventario.WebSite.Pages.DetallePedido
             }
 
             DetallePedidoDto = response.Data;
-            return RedirectToPage("./LiistDetallePedido");
+            return RedirectToPage("./LiistDPedido");
         }
     }
 }

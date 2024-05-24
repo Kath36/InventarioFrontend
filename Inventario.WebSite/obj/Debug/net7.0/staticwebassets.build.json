@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v5b+Lk9qTdvp/CAxTdO7qCTy2iCDgcv2XMevxYGb1EE=",
+  "Hash": "jH8RqcBIpRxZ8o42Bf2HxuUwvjVLv72Lc1RNQsRPfeE=",
   "Source": "Inventario.WebSite",
   "BasePath": "_content/Inventario.WebSite",
   "Mode": "Default",
@@ -129,6 +129,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\Material.css",
+      "SourceId": "Inventario.WebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\",
+      "BasePath": "_content/Inventario.WebSite",
+      "RelativePath": "css/Material.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Material.css"
     },
     {
       "Identity": "C:\\Users\\VAIO\\Desktop\\Proyecto Inventario\\ProyectoInventario\\Inventario.WebSite\\wwwroot\\css\\site.css",

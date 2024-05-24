@@ -1,14 +1,13 @@
-/* Estilos para la página ListDetallePedido */
 
 /* Estilos para el título */
 .display-4 {
-    margin-bottom: 20px; /* Espacio inferior */
+    margin-bottom: 20px; 
 }
 
 /* Estilos para el botón "Add" */
 .btn-custom {
-    margin-bottom: 20px; /* Espacio inferior */
-    background-color: purple;
+    margin-bottom: 20px; 
+    background-color: darkgreen;
 }
 
 /* Estilos para la tabla */
@@ -24,13 +23,19 @@
 }
 
 .table th {
-    background-color: #f8f9fa; /* Color de fondo para las celdas de encabezado */
+    background-color: #f8f9fa; 
 }
 
 .table tr:nth-child(even) {
-    background-color: #f8f9fa; /* Color de fondo para filas pares */
+    background-color: #f8f9fa;
 }
 
 .table tr:hover {
-    background-color: #e9ecef; /* Color de fondo al pasar el mouse sobre la fila */
+    background-color: #e9ecef; 
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 20px 10px;
+    }
 }

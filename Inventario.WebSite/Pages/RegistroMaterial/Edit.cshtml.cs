@@ -3,35 +3,42 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Inventario.Core.Http;
 using Inventario.WebSite.Services;
 using Inventario.Api.Dto;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Inventario.WebSite.Pages.RegistroMaterial
 {
-    public class Edit : PageModel
+    public class EditModel : PageModel
     {
-        [BindProperty]
-        public RegistroMaterialDto RegistroMaterialDto { get; set; }
-
-        public List<string> Errors { get; set; } = new List<string>();
         private readonly IRegistroMaterialService _service;
 
-        public Edit(IRegistroMaterialService service)
+        public EditModel(IRegistroMaterialService service)
         {
             _service = service;
         }
 
-        public async Task<IActionResult> OnGet(int? id)
-        {
-            RegistroMaterialDto = new RegistroMaterialDto();
+        [BindProperty]
+        public RegistroMaterialDto RegistroMaterialDto { get; set; }
 
+        public List<string> Errors { get; set; } = new List<string>();
+
+        public async Task<IActionResult> OnGetAsync(int? id)
+        {
             if (id.HasValue)
             {
                 var response = await _service.GetById(id.Value);
-                RegistroMaterialDto = response.Data;
+                if (response != null && response.Data != null)
+                {
+                    RegistroMaterialDto = response.Data;
+                }
+                else
+                {
+                    return RedirectToPage("/Error");
+                }
             }
-
-            if (RegistroMaterialDto == null)
+            else
             {
-                return RedirectToPage("/Error");
+                RegistroMaterialDto = new RegistroMaterialDto();
             }
 
             return Page();
@@ -54,13 +61,12 @@ namespace Inventario.WebSite.Pages.RegistroMaterial
                 response = await _service.SaveAsync(RegistroMaterialDto);
             }
 
-            Errors = response.Errors;
-            if (Errors.Count > 0)
+            if (response.Errors != null && response.Errors.Count > 0)
             {
+                Errors.AddRange(response.Errors);
                 return Page();
             }
 
-            RegistroMaterialDto = response.Data;
             return RedirectToPage("./ListRegistroMaterial");
         }
     }

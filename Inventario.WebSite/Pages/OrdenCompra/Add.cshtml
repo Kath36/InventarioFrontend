@@ -1,26 +1,44 @@
 @page
-@model Inventario.WebSite.Pages.OrdenCompra.AddModel
-
+@model Inventario.WebSite.Pages.OrdenCompra.Add
 
 <div class="container">
-    <h1 class="display-4">Agregar Orden de Compra</h1>
+    <h1 class="display-4">Nueva Compra</h1>
     <form method="post">
         <div class="form-group">
-            <label asp-for="OrdenCompraDto.MaterialId"></label>
+            <label asp-for="OrdenCompraDto.MaterialId">ID de Material</label>
             <input asp-for="OrdenCompraDto.MaterialId" class="form-control" />
             <span asp-validation-for="OrdenCompraDto.MaterialId" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="OrdenCompraDto.ProveedorId"></label>
+            <label asp-for="OrdenCompraDto.ProveedorId">ID de Proveedor</label>
             <input asp-for="OrdenCompraDto.ProveedorId" class="form-control" />
             <span asp-validation-for="OrdenCompraDto.ProveedorId" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="OrdenCompraDto.Cantidad"></label>
+            <label asp-for="OrdenCompraDto.Cantidad">Cantidad</label>
             <input asp-for="OrdenCompraDto.Cantidad" class="form-control" />
             <span asp-validation-for="OrdenCompraDto.Cantidad" class="text-danger"></span>
         </div>
-        <button type="submit" class="btn btn-primary">Guardar</button>
-        <a asp-page="/OrdenCompra/List" class="btn btn-secondary">Cancelar</a>
+        @if (Model.Errors.Count > 0)
+        {
+            <div class="alert alert-danger" role="alert">
+                <ul>
+                    @foreach (var error in Model.Errors)
+                    {
+                        <li>@error</li>
+                    }
+                </ul>
+            </div>
+        }
+        <div class="row">
+            <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary mr-3">Guardar Compra</button>
+                <a asp-page="/OrdenCompra/ListC" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </div>
     </form>
 </div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,3 +1,4 @@
+using System.Text;
 using Newtonsoft.Json;
 using Inventario.Core.Http;
 using Inventario.Api.Dto;
@@ -35,13 +36,19 @@ namespace Inventario.WebSite.Services
         }
 
         public async Task<Response<DetallePedidoDto>> SaveAsync(DetallePedidoDto detallePedidoDto)
-        {
-            var url = $"{_baseURL}{_endpoint}";
+        {var url = $"{_baseURL}{_endpoint}";
             var jsonRequest = JsonConvert.SerializeObject(detallePedidoDto);
-            using var content = new StringContent(jsonRequest, System.Text.Encoding.UTF8, "application/json");
+            using var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
             using var client = new HttpClient();
             var response = await client.PostAsync(url, content);
-            response.EnsureSuccessStatusCode();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorResponse = await response.Content.ReadAsStringAsync();
+                var errorObj = JsonConvert.DeserializeObject<Response<DetallePedidoDto>>(errorResponse);
+                return errorObj;
+            }
+
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<DetallePedidoDto>>(jsonResponse);
         }

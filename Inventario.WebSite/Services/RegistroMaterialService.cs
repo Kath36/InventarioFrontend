@@ -42,22 +42,69 @@ namespace Inventario.WebSite.Services
             using var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
             using var client = new HttpClient();
             var response = await client.PostAsync(url, content);
-            response.EnsureSuccessStatusCode();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorResponse = await response.Content.ReadAsStringAsync();
+                var errorObj = JsonConvert.DeserializeObject<Response<RegistroMaterialDto>>(errorResponse);
+                return errorObj;
+            }
+
             var jsonResponse = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Response<RegistroMaterialDto>>(jsonResponse);
         }
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         public async Task<Response<RegistroMaterialDto>> UpdateAsync(RegistroMaterialDto registroMaterialDto)
         {
             var url = $"{_baseURL}{_endpoint}/{registroMaterialDto.id}";
             var jsonRequest = JsonConvert.SerializeObject(registroMaterialDto);
             using var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
             using var client = new HttpClient();
+    
             var response = await client.PutAsync(url, content);
-            response.EnsureSuccessStatusCode();
             var jsonResponse = await response.Content.ReadAsStringAsync();
+
+            // Loguea la respuesta para debuguear
+            Console.WriteLine("Response status code: " + response.StatusCode);
+            Console.WriteLine("Response content: " + jsonResponse);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                try
+                {
+                    var errorObj = JsonConvert.DeserializeObject<Response<RegistroMaterialDto>>(jsonResponse);
+                    return errorObj;
+                }
+                catch (JsonReaderException ex)
+                {
+                    return new Response<RegistroMaterialDto>
+                    {
+                        Errors = new List<string> { "Error al parsear la respuesta del servidor: " + ex.Message, "Contenido de la respuesta: " + jsonResponse }
+                    };
+                }
+            }
+
             return JsonConvert.DeserializeObject<Response<RegistroMaterialDto>>(jsonResponse);
         }
+
 
         public async Task<Response<bool>> DeleteAsync(int id)
         {

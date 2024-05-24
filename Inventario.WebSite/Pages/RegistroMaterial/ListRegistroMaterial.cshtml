@@ -1,21 +1,46 @@
 @page
 @model Inventario.WebSite.Pages.RegistroMaterial.ListModel
 
+<head>
+    <title>Inventario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            text-align: center;
+            margin-top: 20px;
+            color: #343a40;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+        }
+        .action-buttons {
+            text-align: right;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+
 <div class="container-fluid">
-    <form method="get">
+    <h1 class="title">Registros de Material</h1>
         <div class="row">
             <div class="col-md-8"></div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-right">
                 <br/>
-                <a asp-page="/OrdenCompra/ListC" class="btn btn-success" role="button">Hacer compra</a>
-                <a asp-page="/RegistroMaterial/Add" class="btn btn-danger" role="button">Agregar</a>
+                <a asp-page="/OrdenCompra/ListC" class="btn btn-dark" role="button">
+                    <i class="fas fa-shopping-bag icon-button">Comprar material</i>
+                </a>
             </div>
         </div>
-    </form>
-    <div class="row">
+    <div class="row mt-3">
         <div class="col-md-1"></div>
         <div class="col-10">
-            <table class="table">
+            <table class="table table-hover" id="registrosMaterialTable">
                 <thead>
                     <tr>
                         <th>Material ID</th>
@@ -27,14 +52,10 @@
                 <tbody>
                     @foreach (var registro in @Model.RegistrosMaterial)
                     {
-                        <tr>
+                        <tr data-id="@registro.id">
                             <td>@registro.MaterialId</td>
                             <td>@registro.Cantidad</td>
                             <td>@registro.Fecha_Registro</td>
-                            <td>
-                                <a asp-page="/RegistroMaterial/Edit" asp-route-id="@registro.id" class="btn btn-primary" role="button">Editar</a>
-                                <a asp-page="/RegistroMaterial/Delete" asp-route-id="@registro.id" class="btn btn-danger" role="button">Eliminar</a>
-                            </td>
                         </tr>
                     }
                 </tbody>
@@ -42,4 +63,40 @@
         </div>
         <div class="col-md-1"></div>
     </div>
+    <div class="row action-buttons">
+        <div class="col-md-12">
+                        <a asp-page="/Index" class="btn btn-dark" role="button">Regresar</a>
+
+            <a asp-page="/RegistroMaterial/Add" class="btn btn-dark" role="button">Agregar</a>
+            <a id="editButton" href="#" class="btn btn-dark" role="button" disabled>Editar</a>
+            <a id="deleteButton" href="#" class="btn btn-dark" role="button" disabled>Eliminar</a>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const table = document.getElementById('registrosMaterialTable');
+            const editButton = document.getElementById('editButton');
+            const deleteButton = document.getElementById('deleteButton');
+
+            table.addEventListener('click', function (event) {
+                let target = event.target;
+                while (target && target.nodeName !== 'TR') {
+                    target = target.parentElement;
+                }
+                if (target) {
+                    const id = target.getAttribute('data-id');
+                    if (id) {
+                        editButton.href = `/RegistroMaterial/Edit?id=${id}`;
+                        deleteButton.href = `/RegistroMaterial/Delete?id=${id}`;
+                        editButton.removeAttribute('disabled');
+                        deleteButton.removeAttribute('disabled');
+                    }
+                }
+            });
+        });
+    </script>
+    
+}

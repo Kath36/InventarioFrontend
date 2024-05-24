@@ -25,3 +25,11 @@ body {
 .table tr:hover {
     background-color: grey;
 }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 20px 10px;
+    }
+}
